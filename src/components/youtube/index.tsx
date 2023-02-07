@@ -11,8 +11,10 @@ const YoutubeSection: React.FC<YoutubeSectionProps> = ({videoId}) => {
 
 
   return (
-    <div className="flex mx-auto bg-black justify-around my-10">
+    <div className="flex mx-auto bg-white justify-around my-10">
       <YouTube videoId={videoId} opts={{
+        height: '100%',
+        width: '100%',
         playerVars: {
             // https://developers.google.com/youtube/player_parameters
             autoplay: 1,
