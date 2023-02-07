@@ -15,8 +15,8 @@ const SocialMedia: React.FC = () => {
   return (
     <div className='flex flex-row flex-wrap gap-2'>
       {
-        icons.map((icon) => (
-          <Image src={icon} alt={''} width={48} height={48}></Image>
+        icons.map((icon, index) => (
+          <Image src={icon} alt={''} width={48} height={48} key={index} />
         ))
       }
     </div>
