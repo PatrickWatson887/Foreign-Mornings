@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import react from 'react'
 import AlbumSection from '../../components/albumSection'
 import Layout from '../../components/layout'
 import YoutubeSection from '../../components/youtube'

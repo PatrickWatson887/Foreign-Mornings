@@ -12,7 +12,7 @@ const NavBar: React.FC = () => {
   return (
     <>
       <div className='w-screen bg-white'>
-        <div className='w-4/6 flex mx-auto justify-around'>
+        <div className='w-4/6 flex mx-auto gap-2 md:gap-0 justify-around'>
           <Image height={16} width={150} src={'/logo.JPG'} alt={''}/>
           {tabs.map((tab, index) => (
             <Link href={'/' + tab} className='my-auto hover:opacity-50' key={index}>

@@ -3,7 +3,6 @@ import { type AppType } from "next/app";
 import { api } from "../utils/api";
 
 import "../styles/globals.css";
-import Layout from "../components/layout";
 import { AnimatePresence } from 'framer-motion'
 
 

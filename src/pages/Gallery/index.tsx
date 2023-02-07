@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import react from 'react'
 import Layout from '../../components/layout'
 
 const Gallery: React.FC = () => {
