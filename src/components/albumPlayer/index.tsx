@@ -1,11 +1,8 @@
 import Image from 'next/image'
 import react from 'react'
 
-interface AlbumPlayerProps {
 
-}
-
-const AlbumPlayer: React.FC<AlbumPlayerProps> = () => {
+const AlbumPlayer: React.FC = () => {
   const singles = [
     {title: 'Dreams', length:'4:17'},
     {title: 'These Nights', length:'5:02'},
@@ -27,7 +24,7 @@ const AlbumPlayer: React.FC<AlbumPlayerProps> = () => {
       </div>
       {
         singles.map((single, index) => (
-          <div className='flex flex-row border-y p-3 hover:bg-gray-200'>
+          <div className='flex flex-row border-y p-3 hover:bg-gray-200' key={index}>
             <div className='flex-none'>
               {index}
             </div>
