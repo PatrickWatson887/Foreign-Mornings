@@ -1,6 +1,4 @@
 import Image from 'next/image'
-import react from 'react'
-
 
 const AlbumPlayer: React.FC = () => {
   const singles = [
